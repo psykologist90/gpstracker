@@ -42,7 +42,15 @@
     "cordova-plugin-statusbar",
     "cordova-plugin-device",
     "ionic-plugin-keyboard",
-    "cordova-plugin-splashscreen"
+    "cordova-plugin-splashscreen",
+    {
+      "locator": "cordova-plugin-googlemaps",
+      "variables": {
+        "API_KEY_FOR_IOS": "YOUR_KEY",
+        "API_KEY_FOR_ANDROID": "YOUR_KEY"
+      }
+    },
+    "cordova-plugin-geolocation"
   ],
   "cordovaPlatforms": [],
   "description": "gpstracker: An Ionic project"
